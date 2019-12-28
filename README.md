@@ -1,4 +1,3 @@
-
 ## Smooth Scroll Image a.k.a. SScrollImage 🕺
 <br>
 
