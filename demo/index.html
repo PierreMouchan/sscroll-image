@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+		<title>SScroll Image Demo</title>
+		<link rel="stylesheet" href="styles.css" />
+	</head>
+	<body>
+		<div class="container">
+			<div class="item">
+				<div class="item__img-wrapper" data-img-scroll>
+					<div class="item__img"></div>
+				</div>
+			</div>
+		</div>
+		<script type="module">
+			// Import the script
+			import { SScrollImage } from '../src/SScrollImage.js';
+
+			// Creating an instance
+			const SScroll = new SScrollImage();
+			// Init the SScroll for images
+			SScroll.init();
+
+			// Destroy all event listeners attached
+			// SScroll.destroy();
+		</script>
+	</body>
+</html>

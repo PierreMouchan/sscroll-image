@@ -1,0 +1,39 @@
+.container {
+	/* Your styles */
+
+	/* Use-case only */
+	min-height: 200vh;
+}
+.item {
+	/* Your styles */
+
+	/* Use-case only */
+	position: absolute;
+	top: 20vh;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+.item__img-wrapper {
+	width: 300px;
+	height: 500px;
+
+	/* REQUIRED */
+	overflow: hidden;
+	will-change: transform;
+}
+
+.item__img {
+	background-image: url(https://picsum.photos/1000/500?random=-1247300549);
+
+	/* REQUIRED */
+	/* Assigning an higher overflow will make the parallax effect bigger */
+	--overflow: 60px;
+	height: calc(100% + (2 * var(--overflow)));
+	top: calc(-1 * var(--overflow));
+	width: 100%;
+	position: absolute;
+	background-size: cover;
+	background-position: 50% 0;
+	will-change: transform;
+}
