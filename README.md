@@ -94,7 +94,7 @@ For the img itself (as a background-url) you have to specify a CSS variable call
 
 All credits goes to [this codrops article](https://tympanus.net/codrops/2019/07/23/smooth-scrolling-image-effects/) and to this repository [codrops/SmoothScrollingImageEffects](https://github.com/codrops/SmoothScrollingImageEffects/).
 <br>
-This script was created on top of their original script, i just simplify some of the functions for my own use.
+This script was created on top of their original script, i just simplified some of the functions for my own use.
 <br> <br>
 [© Codrops 2019](www.codrops.com)
 <br> 
