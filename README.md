@@ -40,9 +40,10 @@ SScroll.init()
 // SScroll.destroy();
 ```
 
-For the **HTML** part, it's more complex. <br>
+For the **HTML** part, it's more complex. <br> <br>
 You need to declare a div which will contain the image as a **background-url** and a parent that will handle the **size** of your image.
-Add the attribute data-img-scroll to the parent <br>
+<br> <br>
+Add the attribute **data-img-scroll** to the parent <br> <br>
 *(The JavaScript part will detect all elements with this attribute).*
 ```html
 <div class="item__img-wrapper" data-img-scroll>
@@ -50,10 +51,10 @@ Add the attribute data-img-scroll to the parent <br>
 </div>
 ```
 
-For the **CSS** part, it's a bit complicated.  💪 💪<br>
+For the **CSS** part, it's a bit complicated.  💪 💪<br><br>
 You need to add the following ***REQUIRED*** instructions (ofc) to your CSS and specify a value for the height and width of your image to the parent element.
 <br> <br>
-For the img itself (as a background-url) you have to specify a CSS variable call *--overflow* (in px) that will be used to make the parallax effect. <br>
+For the img itself (as a background-url) you have to specify a CSS variable call *--overflow* (in px) that will be used to make the parallax effect. <br><br>
 *Assigning an higher overflow will make the parallax effect bigger*
 ```css
 .item__img-wrapper {
